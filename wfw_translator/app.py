@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title="Word-For-Word Translator", page_icon="🗺️", layout="wide")
 
 # Configuration constants
-WORDS_PER_ROW = 10
+WORDS_PER_ROW = 8
 RATE_LIMIT_DELAY = 0.1
 TRANSLATION_TIMEOUT = 10
 MIN_CELL_WIDTH = "80px"
