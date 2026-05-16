@@ -60,7 +60,7 @@ class ScreenDistanceApp(rumps.App):
 
             w, _ = self.detector.findDistance(pointLeft, pointRight)
             W = 6.9  # Approximate width of face in cm
-            f = 1700  # Approximate focal length
+            f = 1450  # Approximate focal length
             d = (W * f) / w  # Calculated distance in cm
             self.d = d
 

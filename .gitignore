@@ -194,6 +194,12 @@ mindhacks/2024.json
 .git
 __marimo__
 
+*.csv
+*.bak
+*.tmp
+node_modules/
+.vscode/
+
 _playground
 /aws-lambda-function
 /azure-speech
@@ -208,9 +214,19 @@ _playground
 /podcast-crewai
 /pycaret-uv
 /streamlit-uv
+/wfw-translator
 /tf
-*.csv
-*.bak
-*.tmp
-node_modules/
-.vscode/
+/friendly-data-hackathon
+/google-keep
+/huggingfaces
+/land-registry
+/myfitnesspal-analysis
+/ollama-model-comparison
+/reddit-scraper
+/seoul-evcps
+/sifooma
+/tfl
+/ukhsa
+/spotify-wrapped-diy/old
+/spotify-podcast-adder
+/ieee-fraud-detection
